@@ -1,9 +1,9 @@
-var greeting = null
-var lineLength = null
 var lineStatement = ''
 var thisPatron = null
 
 function takeANumber(currentDeliLine, newCustomer){
+  var greeting
+  var lineLength
   lineLength = currentDeliLine.length + 1
   greeting = 'Welcome, ' + newCustomer + '. You are number ' + lineLength + ' in line.'
   currentDeliLine.push(newCustomer)
