@@ -3,8 +3,7 @@ var thisPatron = null
 
 function takeANumber(currentDeliLine, newCustomer){
   var greeting
-  var lineLength
-  lineLength = currentDeliLine.length + 1
+  var lineLength = currentDeliLine.length + 1
   greeting = 'Welcome, ' + newCustomer + '. You are number ' + lineLength + ' in line.'
   currentDeliLine.push(newCustomer)
   return greeting
@@ -31,4 +30,4 @@ function currentLine (currentDeliLine) {
     }
     return "The line is currently: " + lineStatement.slice(0,-2)
   }
-} 
+}
